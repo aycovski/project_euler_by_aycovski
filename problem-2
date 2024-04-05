@@ -1,0 +1,14 @@
+# Even Fibonacci Numbers
+
+sum_of_even_fib = 0
+a = 0
+b = 1
+c = 0
+while c < 4000000:
+  a = b
+  b = c
+  c = a + b
+  if c % 2 == 0:
+    sum_of_even_fib += c
+print(sum_of_even_fib)
+  
